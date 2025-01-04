@@ -6,11 +6,11 @@ a{
     text-decoration: none;
 }
 #parent1{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://dargon-netflex.netlify.app/images/back.jpg);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://springboard-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/11/Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 1500px;
+    width: 1460px;
     height: 750px;
     border-bottom: 2px solid red;
 }
@@ -113,20 +113,29 @@ center{
    border: 1px solid white;
 }
 #divpics{
-  margin-left: 8%;
+  padding-left: 8%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
    
 }
-#divpic{
-    margin: 40px;
+.parent2{
+}
+#divpic1{
+    /* margin: 40px;
     border-radius: 10px;
+    display: inline-block; */
    
    
 }
-#divpic:hover{
+/* #divpic1:hover{
     width:190px ;
     height:290px ;
     
-}
+} */
+
+    
+
 #part2para::first-letter{
     color: red;
 font-size:45px ;
